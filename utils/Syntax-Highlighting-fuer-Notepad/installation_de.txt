@@ -1,0 +1,23 @@
+Eine kurze Installationsanleitung für die TypoScript Language Files (V1.2)
+
+Syntax Highlighting:
+---------------------
+
+Ab Version 5.7
+ - Das Menü Ansicht -> Benutzerdefinierte Sprache... aufrufen.
+ - Im sich öffnenden Fenster per Import... die Datei userDefinedLang.xml
+   (bzw. userDefinedLang-Dark.xml bei dunklen Themes) importieren.
+ 
+Ältere Versionen
+ - Die Datei "userDefinedLang.xml" (bzw. "userDefinedLang-Dark.xml" bei dunklen
+   Themes) in den Ordner "%APPDATA%\Notepad++" kopieren.
+ - Falls bereits eine vorhanden ist, nur den Part zwischen <NotepadPlus> und 
+   </NotepadPlus> in die vorhandene einfügen.
+ - Notepad++ neustarten.
+
+ Auto Complete:
+---------------------
+
+ - Die Datei "typoscript.xml" in den Ordner
+   "C:\Programme\Notepad++\plugins\APIs" kopieren.
+ - Notepad++ neustarten.
