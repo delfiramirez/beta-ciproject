@@ -1,0 +1,30 @@
+#Foundation for Sites
+
+https://github.com/zurb/foundation-sites
+
+
+#Sass
+
+https://github.com/sass/sass
+
+
+#Install Sass in Windows
+
+http://rubyinstaller.org/
+
+Run: cmd > gem install sass
+
+
+#NetBeans TypeScript Editor
+
+https://github.com/Everlaw/nbts
+
+
+#How To Use Git & Integrate Git With NetBeans
+
+https://github.com/benrbray/AdamBots-FIRST-2013-Robot-Code/wiki/How-To-Use-Git-&-Integrate-Git-With-NetBeans
+
+
+#Working with submodules in Github
+
+https://github.com/blog/2104-working-with-submodules
