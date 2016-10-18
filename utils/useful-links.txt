@@ -19,6 +19,10 @@ Run: cmd > gem install sass
 
 https://github.com/Everlaw/nbts
 
+#GitPad.exe - Use Notepad as your Git commit editor
+
+https://github.com/github/GitPad
+
 
 #How To Use Git & Integrate Git With NetBeans
 
