@@ -2,11 +2,56 @@
 *:lang(es)
 {
 	
-	font-family: "SohoGothicW01-Regular";
+
+}
+
+/* Structire ********************************************/
+
+html {
+    
+}
+
+body {
+    
+}
+
+/* Typo ********************************************/
+
+h1, h2, h3,h4,h5,h6 {
+    font-family: "SohoGothicW01-Regular";
+}
+
+h1{
+	
 	font-size: 40px;
 	font-weight: 400;
 }
 
+h2{
+    
+}
+
+h3{
+    
+}
+
+/* Anchor Links ********************************************/
+
+a{
+    
+}
+
+a:hover{
+    
+}
+
+a:visited{
+    
+}
+
+a:link{
+    
+}
 /*icons */
 
 .icon-logo 
