@@ -1,4 +1,28 @@
 
+@namespace url(http://www.w3.org/1999/xhtml);
+
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+
 *:lang(en-GB)
 {
 
@@ -18,6 +42,7 @@ body {
 /* Typo    ----------- */
 
 h1, h2, h3,h4,h5,h6 {
+    
     font-family: "SohoGothicW01-Regular";
 }
 
@@ -66,7 +91,9 @@ li{
 /* Hypertext   ----------- */
 
 p{
+    font-family: "robotoregular", sans-serif;
     font-size:100%;
+    font-weight:200;
 }
 
 /* Forms      ----------- */
