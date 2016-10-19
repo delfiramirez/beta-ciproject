@@ -1,0 +1,4 @@
+User-agent: Yandex
+Allow: /
+Sitemap: http://example.com/public/my_sitemaps1.xml
+Sitemap: http://example.com/public/my_sitemaps2.xml
