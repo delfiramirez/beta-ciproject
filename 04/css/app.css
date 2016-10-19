@@ -29,14 +29,42 @@
 
 }
 
+:root {
+    font-size: 12pt;
+    line-height: 1;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    scroll-behavior: smooth;
+}
+
 /* Structure    ----------- */
+
 
 html {
 
 }
 
+
+html,
+body {
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+}
+
+
 body {
 
+}
+
+address {
+    font-style: italic;
+    color: rgba(138, 137, 135, 1);
+}
+
+time {
+    font-style: normal;
+    color: rgba(138, 137, 135, 1);
 }
 
 /* Typo    ----------- */
@@ -44,6 +72,10 @@ body {
 h1, h2, h3,h4,h5,h6 {
     
     font-family: "SohoGothicW01-Regular";
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 h1{
