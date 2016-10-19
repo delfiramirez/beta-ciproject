@@ -1,3 +1,24 @@
+@media (min-width: 60em) {
+
+    div { display: flex; }
+    #main[role="main"] {
+        flex: 1;        
+        order: 1;        
+        min-width: 12em;
+    }
+}
+
+nav[role="navigation"] > ul > li {
+    display: flex;
+    flex-flow: column;
+}
+
+nav[role="navigation"] > ul > li:not(:target):not(:hover) > ul {
+    visibility: collapse;
+}
+
+
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
@@ -155,5 +176,7 @@ only screen and ( min-resolution: 2dppx)
 @media
   (max-device-width: 42mm)
   and (min-device-width: 38mm)
-{ }
+{ 
+    
+}
 
