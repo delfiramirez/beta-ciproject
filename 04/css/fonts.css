@@ -1,0 +1,10 @@
+@font-face 
+{
+    font-family: "SohoGothicW01-Regular";
+    src: url("../fonts/soho-gothic.eot");
+    src: url("../fonts/soho-gothic.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/soho-gothic.woff2") format("woff2"), 
+        url("../fonts/soho-gothic.woff") format("woff"),
+        url("../fonts/soho-gothic.ttf") format("truetype"),
+        url("../fonts/soho-gothic.svg#SohoGothicW01-Regular") format("svg");
+}
