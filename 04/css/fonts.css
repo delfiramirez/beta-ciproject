@@ -7,4 +7,6 @@
         url("../fonts/soho-gothic.woff") format("woff"),
         url("../fonts/soho-gothic.ttf") format("truetype"),
         url("../fonts/soho-gothic.svg#SohoGothicW01-Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
