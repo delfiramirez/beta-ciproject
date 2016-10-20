@@ -310,6 +310,10 @@ error
 
 /*Flexboxing ... container + row*/
 
+@supports ((display:flexbox)) {
+  // ...
+}
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
