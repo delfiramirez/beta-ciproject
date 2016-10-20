@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en-GB">
     <head>
-        
+
         <base href="index.html">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
         <title>{{ title }}</title>
 
         <meta name="MobileOptimized" content="320">
 
-        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-title" content="{{app.name}}"> 
+        <meta name="apple-mobile-web-app-capable" content="yes">        
+        <meta name="apple-touch-fullscreen" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="width=device-width; content="width = 320; initial-scale=1.0; maximum-scale=1.0; user-scalable=yes; target-densitydpi=160dpi">
 
         <meta name="description" content="{{ .. }}">
         <meta name="keywords" content="{{ .. }}">
@@ -46,7 +50,13 @@
         <link rel="manifest" href="manifest.json">
         <link rel="shortcut icon" href="ico/icfavicon.ico">
 
-
+        <meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)">
+        <meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)">
+        <meta name="msapplication-starturl" content="index.html">
+        <meta name="msapplication-window" content="width=800;height=600">
+        <meta name="msapplication-navbutton-color" content="black">
+        <meta name="application-name" content="{{app.name}}r">
+        <meta name="msapplication-tooltip" content="{{app.title}}">
         <meta name="msapplication-TileColor" content="#9f00a7">
         <meta name="msapplication-TileImage" content="mstile-144x144.png">
         <meta name="msapplication-config" content="browserconfig.xml">
