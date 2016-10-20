@@ -211,7 +211,7 @@ pip-log.txt
 
 #Translations
 *.mo
-
+*/nbproject/*
 #Mr Developer
 .mr.developer.cfg
 /03/nbproject/private/
