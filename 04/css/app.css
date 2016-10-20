@@ -91,7 +91,7 @@ a
 
 h1, h2, h3,h4,h5,h6 
 {
-    
+
     font-family: "SohoGothicW01-Regular", serif;
     font-weight: normal;
     white-space: nowrap;
@@ -131,7 +131,7 @@ a:hover{
 
 a:visited
 {
-    
+
     opacity: 0.8;
 
 }
@@ -162,29 +162,37 @@ li
 
 }
 
-ul li.lista
+.lista li
 {
     color: #e6e6e6;
     background-color: #2199e8;
-    list-style: none outside none;
-    padding-left: 29px;
-    
+    border-bottom: 2px solid #fefefe;
+
 }
 
- ul li.lista:before
- { 
-     content: "\2605\ "; 
-     color:#e6e6e6;
- }
- 
- 
+.lista li:before
+{ 
+    content: "\2605\ "; 
+    color:#e6e6e6;
+}
+
+.lista li a
+{
+    color: #e6e6e6;
+    text-decoration:none;
+}
+
+
+
 /* Hypertext   ----------- */
 
 p{
     font-family: "robotoregular", sans-serif;
     font-size:100%;
-    font-weight:200;
+    font-weight:100;
 }
+
+
 
 /* Forms      ----------- */
 
@@ -230,7 +238,7 @@ p{
     border-color: transparent;
 }
 .button:not([disabled]):focus:not(:hover),
-.o-hoverable-on .button:not([disabled]):hover {
+.button:not([disabled]):hover {
     background-color: rgba(39,117,123,.08);
     border-color: rgba(39,117,123,.3);
 }
@@ -254,11 +262,35 @@ p{
 
 /* Tables   ----------- */ 
 
+table{
+    
+}
 
-/* https://www.w3.org/Style/Examples/007/evenodd.en.html   ----------- */ 
+thead{
+    
+}
 
-tr:nth-child(even) {background: #CCC}
-tr:nth-child(odd) {background: #FFF}
+tbody{
+    
+}
+
+td:nth-child(even) {
+    color: #e6e6e6;
+    background-color: #2199e8;
+    border-bottom: 2px solid #fefefe;
+}
+td:nth-child(odd) {
+    color:  #2199e8;
+    background-color:#e6e6e6;
+    border-bottom: 2px solid #fefefe;
+}
+tr{
+    
+}
+
+tfoot{
+    
+}
 
 
 /* Containar    ----------- */ 
@@ -266,7 +298,7 @@ tr:nth-child(odd) {background: #FFF}
 div
 {
 
-  transition: width 0.7s ease-out;
+    transition: width 0.7s ease-out;
 } 
 
 
@@ -319,7 +351,7 @@ error
 /*Flexboxing ... container + row*/
 
 @supports ((display:flexbox)) {
-  // ...
+    // ...
 }
 
 .container-fluid {
