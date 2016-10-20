@@ -92,7 +92,7 @@ a
 h1, h2, h3,h4,h5,h6 
 {
     
-    font-family: "SohoGothicW01-Regular";
+    font-family: "SohoGothicW01-Regular", serif;
     font-weight: normal;
     white-space: nowrap;
     overflow: hidden;
@@ -188,7 +188,69 @@ p{
 
 /* Forms      ----------- */
 
-
+.button {
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin: 0;
+    outline: 0;
+    border-style: solid;
+    text-align: center;
+    text-decoration: none;
+    font-family: "SohoGothicW01-Regular", serif;
+    font-weight: 600;
+    border-radius: 3px;
+    cursor: pointer;
+    -webkit-transition: .3s background-color,.15s color ease-out,.15s border-color ease-out;
+    transition: .3s background-color,.15s color ease-out,.15s border-color ease-out;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-clip: padding-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-size: 16px;
+    min-height: 26px;
+    min-width: 26px;
+    padding: 4px 8px 4px 8px;
+    font-size: 16px;
+    line-height: 16px;
+    border-width: 1px;
+    color: #27757b;
+    background-color: rgba(255,255,255,.4);
+    border-color: rgba(39,117,123,.15);
+}
+.button[aria-pressed=true],
+.button[aria-selected=true] {
+    background-color: rgba(39,117,123,.2)!important;
+    border-color: transparent;
+}
+.button:not([disabled]):focus:not(:hover),
+.o-hoverable-on .button:not([disabled]):hover {
+    background-color: rgba(39,117,123,.08);
+    border-color: rgba(39,117,123,.3);
+}
+.button:not([disabled]):active {
+    color: #1d1d1d;
+    border-color: #f6e9d8;
+}
+.button:focus:not(:active):not(:hover) {
+    -webkit-box-shadow: inset 0 0 0 1px rgba(39,117,123,.5);
+    box-shadow: inset 0 0 0 1px rgba(39,117,123,.5);
+}
+.button[disabled] {
+    pointer-events: none;
+    opacity: .4;
+    cursor: default;
+}
+.button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
 
 
 /* Containar    ----------- */ 
