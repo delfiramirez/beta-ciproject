@@ -191,12 +191,16 @@ p{
 
 
 
-/* Addons    ----------- */   
+/* Containar    ----------- */ 
+
+div
+{
+
+  transition: width 0.7s ease-out;
+} 
 
 
-
-
-/*icons    ----------- */
+/*Adds    ----------- */
 
 .icon-logo 
 {
