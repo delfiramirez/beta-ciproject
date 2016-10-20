@@ -79,7 +79,8 @@ h6,
 p,
 ul li,
 ol li,
-a {
+a 
+{
     font-family: "robotoregular", Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -88,7 +89,8 @@ a {
     word-spacing: 0px;
 }
 
-h1, h2, h3,h4,h5,h6 {
+h1, h2, h3,h4,h5,h6 
+{
     
     font-family: "SohoGothicW01-Regular";
     font-weight: normal;
@@ -97,7 +99,8 @@ h1, h2, h3,h4,h5,h6 {
     text-overflow: ellipsis;
 }
 
-h1{
+h1
+{
 
     font-size: 40px;
     font-weight: 400;
@@ -117,7 +120,8 @@ a{
 
 }
 
-a:active {
+a:active
+{
     color: rgb(72, 85, 99);
 }
 
@@ -125,26 +129,55 @@ a:hover{
 
 }
 
-a:visited{
+a:visited
+{
     
     opacity: 0.8;
 
 }
 
-a:link{
+a:link
+{
 
 }
 
 /* Lists    ----------- */
 
-ul, ol{
+ul, ol
+{
 
 }
 
-li{
+ul 
+{
+    font-size: 24px;
+    text-decoration: none;
+    width: 250px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li
+{
 
 }
 
+ul li.lista
+{
+    color: #e6e6e6;
+    background-color: #2199e8;
+    list-style: none outside none;
+    padding-left: 29px;
+    
+}
+
+ ul li.lista:before
+ { 
+     content: "\2605\ "; 
+     color:#e6e6e6;
+ }
+ 
+ 
 /* Hypertext   ----------- */
 
 p{
