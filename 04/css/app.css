@@ -290,9 +290,8 @@ table{
 
 }
 
-th:nth-of-type(odd) { 
-  background: #eee; 
-  font-weight: 600; 
+thead{
+    
 }
 
 tbody{
@@ -309,7 +308,10 @@ td:nth-child(odd) {
     background-color:#e6e6e6;
     border-bottom: 2px solid #fefefe;
 }
-tr{
+tr:nth-of-type(odd) { 
+  background: #eee; 
+  font-weight: 600; 
+
 
 }
 
