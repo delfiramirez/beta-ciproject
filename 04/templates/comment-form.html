@@ -1,17 +1,16 @@
-<form class="group" name="exampleform" action="formaction" method="post">
-    <label class="label">Name</label> 
-    <input class="text--small" type="text" name="name" value="Jon Doe"> 
+<form name="exampleform" action="formaction" method="post">
+    <label class="label">{{form.dta.name}}</label> 
+    <input class="l" type="text" name="name" value="Jon Doe"> 
   
     <label class="label">Rating</label>
-    <input class="radio" type="radio" name="rating" value="1" id="radio11"></input>
+    <input class="radio" type="radio" name="rating" value="1" id="radio11" />
     <label for="radio11" class="label">1</label>
-    <input class="radio" type="radio" name="rating" value="2" id="radio12" checked></input>
+    <input class="radio" type="radio" name="rating" value="2" id="radio12" checked />
     <label for="radio12" class="label">2</label>
-    <input class="radio" type="radio" name="rating" value="3" id="radio13"></input>
-    <label for="radio13" class="label">3</label>
-  
+    <input class="radio" type="radio" name="rating" value="3" id="radio13" />
+    <label for="radio12" class="label">2</label>
     <label class="label">Comment</label> 
     <textarea name="comment">enter comments here ...</textarea> 
     
-    <input class="button" type="submit" value="Submit Comment">
+    <input class="button" type="submit" value="Submit Comment" />
 </form>
