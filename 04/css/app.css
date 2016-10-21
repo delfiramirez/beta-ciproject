@@ -290,8 +290,9 @@ table{
 
 }
 
-thead{
-
+th:nth-of-type(odd) { 
+  background: #eee; 
+  font-weight: 600; 
 }
 
 tbody{
