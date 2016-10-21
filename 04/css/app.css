@@ -287,11 +287,21 @@ button, .button::-moz-focus-inner {
 /* Tables   ----------- */ 
 
 table{
+    
+    border: 1px solid rgba(150,150,150, 1);s
+    width: 100%;
+    margin:0;
+    padding:0;
+    border-collapse: collapse;
+    border-spacing: 0;
 
 }
 
 thead{
     
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 tbody{
@@ -303,15 +313,20 @@ td:nth-child(even) {
     background-color: #2199e8;
     border-bottom: 2px solid #fefefe;
 }
+
 td:nth-child(odd) {
     color:  #2199e8;
     background-color:#e6e6e6;
     border-bottom: 2px solid #fefefe;
 }
+
+td:last-child {
+      border-bottom: 0;
+    }
+    
 tr:nth-of-type(odd) { 
   background: #eee; 
   font-weight: 600; 
-
 
 }
 
